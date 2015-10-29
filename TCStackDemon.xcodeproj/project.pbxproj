@@ -17,7 +17,6 @@
 		56F4BA451BDF7A6A005D6398 /* TCStackDemonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F4BA441BDF7A6A005D6398 /* TCStackDemonUITests.m */; };
 		56F4BA571BDF7CB5005D6398 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F4BA551BDF7CB5005D6398 /* logo@2x.png */; settings = {ASSET_TAGS = (); }; };
 		56F4BA581BDF7CB5005D6398 /* smile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F4BA561BDF7CB5005D6398 /* smile@2x.png */; settings = {ASSET_TAGS = (); }; };
-		56F4BA731BE1CE34005D6398 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F4BA721BE1CE34005D6398 /* logo2.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		56F4BA461BDF7A6A005D6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56F4BA551BDF7CB5005D6398 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		56F4BA561BDF7CB5005D6398 /* smile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smile@2x.png"; sourceTree = "<group>"; };
-		56F4BA721BE1CE34005D6398 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +150,6 @@
 			children = (
 				56F4BA551BDF7CB5005D6398 /* logo@2x.png */,
 				56F4BA561BDF7CB5005D6398 /* smile@2x.png */,
-				56F4BA721BE1CE34005D6398 /* logo2.png */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -265,7 +262,6 @@
 				56F4BA581BDF7CB5005D6398 /* smile@2x.png in Resources */,
 				56F4BA2C1BDF7A67005D6398 /* Assets.xcassets in Resources */,
 				56F4BA2A1BDF7A66005D6398 /* Main.storyboard in Resources */,
-				56F4BA731BE1CE34005D6398 /* logo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
