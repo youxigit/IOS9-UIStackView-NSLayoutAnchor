@@ -24,7 +24,6 @@
 
 - (void)horizontalStackViewInit
 {
-    
     _horizontalStackView = [[UIStackView alloc]init];
     _horizontalStackView.axis = UILayoutConstraintAxisHorizontal;
     _horizontalStackView.distribution = UIStackViewDistributionFillEqually;
@@ -89,16 +88,16 @@
    
     /*************IOS 9 之前的约束实现*******************/
     
-    [NSLayoutConstraint constraintWithItem:_logoImageView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:_logoImageView attribute:NSLayoutAttributeHeight multiplier:1 constant:0].active = YES;
-    
-    [NSLayoutConstraint constraintWithItem:_verticalStackView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:_verticalStackView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:_verticalStackView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeHeight multiplier:0.9 constant:0].active = YES;
-    
-    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeHeight multiplier:0.1 constant:0].active = YES;
+//    [NSLayoutConstraint constraintWithItem:_logoImageView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:_logoImageView attribute:NSLayoutAttributeHeight multiplier:1 constant:0].active = YES;
+//    
+//    [NSLayoutConstraint constraintWithItem:_verticalStackView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1 constant:0].active = YES;
+//    [NSLayoutConstraint constraintWithItem:_verticalStackView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1 constant:0].active = YES;
+//    [NSLayoutConstraint constraintWithItem:_verticalStackView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeHeight multiplier:0.9 constant:0].active = YES;
+//    
+//    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1 constant:0].active = YES;
+//    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1 constant:0].active = YES;
+//    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1 constant:0].active = YES;
+//    [NSLayoutConstraint constraintWithItem:_horizontalStackView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeHeight multiplier:0.1 constant:0].active = YES;
     
     [super updateViewConstraints];
 }
